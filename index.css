@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 95vh;
+    background: #b1d3e3;
+    font-family: 'Quicksand', sans-serif;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section#game {
+    margin: 15px;
+    align-self: center;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: #fff;
+}
+
+h1 {
+    margin: 0;
+}
+
+section.blocks {
+    display: flex;
+    flex-direction: row;
+}
+
+section.blocks>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #000;
+}
+
+span {
+    display: block;
+    transform: rotate(45deg);
+    color: #000;
+    font-size: 40px;
+}
+
+td {
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    border: 1px solid #000;
+}
